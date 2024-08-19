@@ -1,0 +1,32 @@
+.footer_container {
+    font-family: "Karla", sans-serif;
+    height: 70px;
+    width: 100%;
+    background-color: #2a2929eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+}
+
+.footer_container span {
+    margin-left: -2px;
+    color: #e3dbdb;
+    font-size: 12px;
+}
+
+.footer_icon {
+    font-size: 25px;
+    color: #e3dbdb;
+}
+
+.pluse_icon {
+    font-size: 45px;
+    margin-top: -15px;
+    color: #e4ab0c;
+    background-color: #dad8d8;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.296) 0px 4px 8px;
+}

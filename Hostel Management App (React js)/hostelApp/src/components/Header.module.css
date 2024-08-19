@@ -1,0 +1,31 @@
+.header_container {
+    font-family: "Karla", sans-serif;
+    height: 70px;
+    width: 100%;
+    background-color: #1f1e1eeb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0%;
+    position: sticky;
+    z-index: 999;
+}
+
+.header_title {
+    font-size: 19px;
+    color: white;
+}
+
+.header_icons {
+    color: #cdcdcd;
+    font-size: 25px;
+}
+
+.notifi_search {
+    display: flex;
+}
+
+.notifi_search .search {
+    margin-left: 5px;
+    margin-right: -5px;
+}

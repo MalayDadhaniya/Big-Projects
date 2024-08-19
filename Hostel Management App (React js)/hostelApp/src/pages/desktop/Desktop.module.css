@@ -1,0 +1,132 @@
+.desktop_container {
+    background-color: #222324;
+    color: white;
+    padding: 15px;
+}
+
+.img_container {
+    padding: 10px;
+    margin: auto;
+    height: 240px;
+    width: 330px;
+    background-color: #222324;
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 20px;
+}
+
+.img_container .hostelImg {
+    height: 220px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.information_container {
+    margin: 15px auto;
+    height: 240px;
+    width: 330px;
+    background-color: #2f2e2eeb;
+    border-radius: 20px;
+}
+
+.information_title {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(204, 196, 196);
+    font-size: 14px;
+    padding: 12px;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.information_title p2 {
+    font-size: 12px;
+    color: rgb(163, 155, 155);
+}
+
+.select_box {
+    padding: 2px;
+    background-color: transparent;
+    border: 1px solid rgb(131, 105, 20);
+    border-radius: 5px;
+    color: rgb(131, 105, 20);
+    height: 28px;
+    width: 90px;
+}
+
+.circle_and_info {
+    padding: 15px;
+    height: calc(100% - 50px);
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.circle_and_info p {
+    font-size: 10px;
+    color: rgb(163, 155, 155);
+}
+
+.circle_and_info p span {
+    font-size: 16px;
+    color: rgb(215, 209, 209);
+}
+
+.circle_and_info .info1 {
+    margin: 20px 0px 0px 10px;
+}
+
+.circle_and_info .info2 {
+    margin: 100px 0px 0px -50px;
+}
+
+
+.circle_and_info .info3 {
+    margin: 100px 0px 0px 0px;
+}
+
+.circle_and_info .info4 {
+    margin: 20px 0px 0px -60px;
+}
+
+.circle {
+    height: 110px;
+    width: 110px;
+    border: 1.4px solid rgb(255, 196, 0);
+    border-style: none dotted none solid;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.inner_circle {
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(255, 196, 0);
+    border-style: solid none none dotted;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.inner_inner_circle {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(255, 196, 0);
+    border-style: none solid dotted none;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.map {
+    margin: 15px auto;
+    height: 240px;
+    width: 330px;
+    background-color: #2f2e2eeb;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.map iframe {
+    border-radius: 10px;
+}
