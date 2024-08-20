@@ -3,6 +3,6 @@
   padding: 0%;
   box-sizing: border-box;
   /* background-color: #323334; */
-
   font-family: "Karla", sans-serif;
+  user-select: none;
 }

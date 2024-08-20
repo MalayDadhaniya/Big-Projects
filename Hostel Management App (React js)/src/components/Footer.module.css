@@ -17,6 +17,10 @@
     font-size: 12px;
 }
 
+.links {
+    text-decoration: none;
+}
+
 .footer_icon {
     font-size: 25px;
     color: #e3dbdb;

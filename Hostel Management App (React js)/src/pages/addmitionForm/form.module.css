@@ -1,0 +1,51 @@
+.form_container {
+    background-color: #222324;
+    color: white;
+    padding: 15px;
+}
+
+.form_inner_container {
+    overflow-x: scroll;
+    padding: 20px;
+    margin: auto;
+    height: calc(100vh - 170px);
+    width: 330px;
+    background-color: #222324;
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 20px;
+}
+
+.form_title {
+    font-size: 20px;
+}
+
+.form_title span {
+    color: rgb(255, 196, 0);
+}
+
+form input {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 15vw;
+    color: white;
+}
+
+form label {
+    padding-bottom: 5px;
+}
+
+form select {
+    margin-bottom: 20px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 15vw;
+}
+
+.form_button button {
+    margin-top: 40px;
+    float: right;
+    padding: 5px 40px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 5px;
+}
