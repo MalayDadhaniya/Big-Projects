@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     if (email === "hostelapp@gmail.com" && password === "hostelapp") {
-      window.location.href = "http://localhost:5173";
+      window.location.href = "http://localhost:5174";
     } else {
       setError("Invalid email or password!");
     }
