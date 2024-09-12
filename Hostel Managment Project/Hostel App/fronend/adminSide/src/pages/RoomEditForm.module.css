@@ -1,0 +1,78 @@
+/* Form Container */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ensures the form is centered vertically on the full viewport height */
+    padding: 20px;
+    /* Adds some padding around the container */
+}
+
+/* Form */
+.form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input Group */
+.inputGroup {
+    margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+    display: block;
+    font-size: 18px;
+    /* Adjusted to be slightly smaller for a balanced look */
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Input Fields */
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.input:focus {
+    border-color: #E7B75F;
+    /* Primary color for focus state */
+    outline: none;
+}
+
+/* Edit Button */
+.editButton {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #E7B75F;
+    /* Primary color for the border */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #E7B75F;
+    /* Primary color */
+    color: white;
+    /* White text for contrast */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.editButton:hover {
+    background-color: #d9a15d;
+    /* Slightly darker shade for hover */
+    border-color: #d9a15d;
+    /* Match border color with hover background */
+}
+
+.editButton:focus {
+    outline: 2px solid #E7B75F;
+    /* Add outline for focus state */
+    outline-offset: 2px;
+}

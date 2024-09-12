@@ -1,0 +1,36 @@
+.sidebar {
+    width: 18%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: fixed;
+    background-color: #ffffff;
+    /* White background */
+}
+
+.sidebar ul {
+    margin: 110px 55px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 10px;
+    color: #333333;
+    /* Dark gray text color */
+    border-radius: 10px;
+    /* Slightly rounded corners */
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sidebar ul li:hover {
+    background-color: #E7B75F;
+    /* Primary color for hover effect */
+    color: #ffffff;
+    /* White text color on hover */
+}
+
+.PageLink {
+    text-decoration: none;
+    color: inherit;
+    /* Inherit color from parent (sidebar) */
+}

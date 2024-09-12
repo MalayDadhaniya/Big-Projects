@@ -1,0 +1,53 @@
+.Header {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /* White background for header */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* Light shadow */
+}
+
+.Header ul {
+    display: flex;
+}
+
+.PageLink {
+    text-decoration: none;
+}
+
+.Header ul li {
+    color: #E7B75F;
+    /* Primary color for text */
+    padding: 5px 20px;
+    margin: 0px 15px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.Header ul button {
+    background-color: #E7B75F;
+    /* Primary color for button */
+    color: #ffffff;
+    /* White text color for button */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.Header ul li:hover {
+    border-radius: 5px;
+    border: 1px solid #E7B75F;
+    /* Primary color for border on hover */
+    background-color: #f8f8f8;
+    /* Light background on hover */
+}
+
+.hostelName {
+    font-size: 26px;
+    color: #E7B75F;
+    /* Primary color for hostel name */
+}

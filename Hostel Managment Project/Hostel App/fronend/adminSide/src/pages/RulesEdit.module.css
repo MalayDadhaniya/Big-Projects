@@ -1,0 +1,138 @@
+/* Rules Container */
+.Rules {
+    margin: 60px auto;
+    width: 70%;
+    height: 65vh;
+    padding: 20px 15px 50px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(220, 217, 217, 0.639);
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #ffffff;
+    /* White background */
+}
+
+/* Rules Content */
+.rules_all {
+    padding-left: 60px;
+}
+
+.rules_title {
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    z-index: 999;
+    color: #333;
+    /* Dark gray for better readability */
+}
+
+.rules_title span {
+    color: #E7B75F;
+    /* Primary color */
+}
+
+strong {
+    font-size: 21px;
+    color: #333;
+    /* Dark gray for strong text */
+}
+
+ul li {
+    font-size: 19px;
+    color: #333;
+    /* Dark gray for list items */
+}
+
+/* Table Styles */
+.rules_table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #E7B75F;
+    /* Primary color */
+    color: #fff;
+    /* White text for contrast */
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Buttons */
+.rules_title button,
+td button {
+    padding: 5px 30px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #E7B75F;
+    /* Primary color */
+    color: #fff;
+    /* White text */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.rules_title button:hover,
+td button:hover {
+    background-color: #d9a15d;
+    /* Slightly darker shade for hover */
+}
+
+/* List Styles */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: disc;
+    color: #333;
+    /* Dark gray for list items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .rules_table {
+        width: 100%;
+    }
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 10px;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 10px;
+        text-align: left;
+    }
+}

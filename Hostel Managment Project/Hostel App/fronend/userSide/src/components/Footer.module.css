@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    /* White background for footer */
+    color: #E7B75F;
+    /* Primary color for text */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px;
+    /* Light shadow */
+    z-index: 999;
+    font-size: 16px;
+}

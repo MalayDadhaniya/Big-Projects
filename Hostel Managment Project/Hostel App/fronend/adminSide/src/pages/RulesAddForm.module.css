@@ -1,0 +1,126 @@
+/* Form Container */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    /* Light gray background */
+}
+
+/* Rules Add Form */
+.rules-add-form {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* White background */
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    /* Dark gray for labels */
+}
+
+/* Input and Textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #E7B75F;
+    /* Primary color border */
+    border-radius: 4px;
+    color: #333;
+    /* Dark gray text */
+}
+
+/* Button */
+form button {
+    display: inline-block;
+    padding: 7px 40px;
+    font-size: 16px;
+    color: #fff;
+    /* White text */
+    background-color: #E7B75F;
+    /* Primary color */
+    border: 1px solid #E7B75F;
+    /* Primary color border */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d9a15d;
+    /* Slightly darker shade for hover */
+}
+
+/* Form Styles (reused from previous example for consistency) */
+.form {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    border-radius: 8px;
+}
+
+/* Input Group */
+.inputGroup {
+    margin-bottom: 15px;
+}
+
+/* Label for Form */
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    /* Dark gray for labels */
+}
+
+/* Input and Textarea Specific */
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E7B75F;
+    /* Primary color border */
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    /* Dark gray text */
+}
+
+/* Edit Button */
+.editButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #E7B75F;
+    /* Primary color */
+    color: #fff;
+    /* White text */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editButton:hover {
+    background-color: #d9a15d;
+    /* Slightly darker shade for hover */
+}

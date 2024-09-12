@@ -1,0 +1,38 @@
+.header {
+    padding: 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /* White background */
+}
+
+.hostelName {
+    font-size: 32px;
+    font-weight: 500;
+    color: #E7B75F;
+    /* Primary color for hostel name */
+}
+
+.header input {
+    width: 200px;
+    border: 1px solid #E7B75F;
+    /* Primary color for border */
+    padding: 8px;
+    border-radius: 3px 0 0 3px;
+}
+
+.header button {
+    width: 75px;
+    cursor: pointer;
+    border: 1px solid #E7B75F;
+    /* Primary color for border */
+    padding: 7px;
+    border-radius: 0 3px 3px 0;
+    background-color: #E7B75F;
+    /* Primary color for button background */
+    color: #ffffff;
+    /* White text color for button */
+}
