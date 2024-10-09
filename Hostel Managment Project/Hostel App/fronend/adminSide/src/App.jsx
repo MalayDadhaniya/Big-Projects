@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-//Header and Sidebar
+
 import AdminHeader from "./components/AdminHeader";
 import AdminSidebar from "./components/AdminSidebar";
-//All Admin Pages
 import Dashboard from "./pages/Dashboard";
 import RoomEdit from "./pages/RoomEdit";
 import RulesEdit from "./pages/RulesEdit";

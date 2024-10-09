@@ -3,13 +3,11 @@ import style from "./Dashboard.module.css";
 import axios from "axios";
 
 const Dashboard = () => {
-  // States for different components
   const [lunchDetails, setLunchDetails] = useState([]);
   const [rooms, setRooms] = useState([]);
   const [rules, setRules] = useState([]);
   const [studentInfo, setStudentInfo] = useState([]);
 
-  // Fetch all details
   useEffect(() => {
     const fetchData = async () => {
       try {

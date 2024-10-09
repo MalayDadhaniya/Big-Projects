@@ -5,42 +5,32 @@
     padding: 30px;
     border-radius: 20px;
     border: 1px solid #E7B75F;
-    /* White background for content area */
     overflow-y: scroll;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    /* Light shadow */
 }
 
 .rules_all {
     padding-left: 60px;
 }
 
-/* Title styling */
 .rules_title {
     font-size: 27px;
     margin-bottom: 10px;
     font-weight: 700;
     color: #333333;
-    /* Dark gray text color for title */
 }
 
 .rules_title span {
     color: #E7B75F;
-    /* Primary color for highlighted text */
 }
 
-/* Strong text styling */
 strong {
     font-size: 21px;
     color: #333333;
-    /* Dark gray text color for strong text */
 }
 
-/* List item styling */
 ul li {
     font-size: 19px;
     color: #555555;
-    /* Dark gray text color for list items */
     margin-bottom: 10px;
-    /* Space between list items */
 }

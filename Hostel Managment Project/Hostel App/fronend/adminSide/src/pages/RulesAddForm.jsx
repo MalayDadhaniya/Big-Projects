@@ -9,13 +9,11 @@ const RulesAddForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Create a new rule object
     const newRule = {
       rule,
-      details: details.split("\n"), // Split details by newline to create an array
+      details: details.split("\n"),
     };
 
-    // Post the new rule to the backend
     fetch("http://localhost:3001/rules-details", {
       method: "POST",
       headers: {
@@ -25,10 +23,8 @@ const RulesAddForm = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        // Add the new rule to the rules list
         setRulesList([...rulesList, data]);
 
-        // Clear the form
         setRule("");
         setDetails("");
       })

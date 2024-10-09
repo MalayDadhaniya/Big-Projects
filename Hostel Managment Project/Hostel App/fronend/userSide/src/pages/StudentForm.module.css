@@ -1,6 +1,5 @@
 .studentform {
     border: 1px solid #E7B75F;
-    /* Primary color for border */
     border-radius: 20px;
     font-size: 20px;
     display: flex;
@@ -15,7 +14,6 @@
 .studentform input {
     padding: 7px 70px;
     border: 1px solid #E7B75F;
-    /* Primary color for border */
     border-radius: 3px;
 }
 
@@ -23,17 +21,14 @@
     padding: 5px 25px;
     margin: 0px auto;
     border: 1px solid #E7B75F;
-    /* Primary color for border */
     border-radius: 3px;
 }
 
 .studentform button {
     padding: 5px 30px;
     background-color: #E7B75F;
-    /* Primary color for button background */
     border: none;
     color: white;
-    /* White text color for button */
     border-radius: 3px;
     cursor: pointer;
 }

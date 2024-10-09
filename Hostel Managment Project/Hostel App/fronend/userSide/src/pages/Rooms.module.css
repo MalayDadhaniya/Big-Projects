@@ -4,34 +4,25 @@
     justify-content: center;
 }
 
-/* Custom table styling */
 .customTable {
     font-size: 17px;
     width: 80%;
     border-collapse: collapse;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    /* Light shadow */
     background-color: #ffffff;
-    /* White background for table */
     border-radius: 8px;
-    /* Rounded corners */
     overflow: hidden;
-    /* Ensures rounded corners work */
 }
 
-/* Table headers */
 .customTable thead {
     background-color: #E7B75F;
-    /* Primary color for header background */
     color: #ffffff;
-    /* White text color for header */
 }
 
 .customTable th,
 .customTable td {
     font-size: 19px;
     border: 1px solid #E7B75F;
-    /* Primary color for table borders */
     padding: 10px 25px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -41,30 +32,24 @@
     font-weight: bold;
 }
 
-/* Alternating row colors */
 .customTable tbody tr:nth-child(even) {
     background-color: #f9f9f9;
-    /* Light gray for even rows */
 }
 
 .customTable tbody tr:nth-child(odd) {
     background-color: #ffffff;
-    /* White for odd rows */
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .customTable {
         width: 100%;
         border: none;
-        /* Remove border for mobile view */
     }
 
     .customTable th,
     .customTable td {
         padding: 10px;
         font-size: 16px;
-        /* Adjust font size for smaller screens */
     }
 
     .customTable tr {
@@ -85,6 +70,5 @@
         left: 10px;
         font-weight: bold;
         color: #E7B75F;
-        /* Color for labels */
     }
 }

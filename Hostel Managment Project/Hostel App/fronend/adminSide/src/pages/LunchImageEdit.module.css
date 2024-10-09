@@ -1,21 +1,17 @@
-/* Table Container */
 .tableContainer {
     padding: 0px 40px 60px 40px;
     display: flex;
     justify-content: center;
 }
 
-/* Custom Table */
 .customTable {
     width: 95%;
     border-collapse: collapse;
     box-shadow: 0 2px 15px rgba(64, 64, 64, 0.15);
     background-color: #ffffff;
-    /* White */
     overflow: hidden;
 }
 
-/* Table Header */
 .customTable th,
 .customTable td {
     border: 1px solid rgba(223, 219, 219, 0.607);
@@ -26,27 +22,20 @@
 
 .customTable thead {
     background-color: #E7B75F;
-    /* Primary color */
     color: #ffffff;
-    /* White text for contrast */
     font-weight: bold;
     border-bottom: 2px solid #E7B75F;
-    /* Border to distinguish header */
 }
 
 .customTable th {
     font-size: 1.1em;
 }
 
-/* Hover Effect for Rows */
 .customTable tbody tr:hover {
     background-color: #f0e4d7;
-    /* Light beige to complement primary color */
     color: #333;
-    /* Dark gray text color for readability */
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .customTable {
         width: 100%;

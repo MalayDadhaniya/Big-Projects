@@ -12,7 +12,6 @@ const StudentForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Submit to local server
     axios
       .post("http://localhost:3001/studentInfo", {
         name,
@@ -24,7 +23,6 @@ const StudentForm = () => {
       .then((result) => console.log("Local submission success:", result))
       .catch((err) => console.log("Local submission error:", err));
 
-    // Submit to Web3Forms API
     const formData = new FormData(e.target);
     formData.append("access_key", "6f4ad288-422e-4794-8a07-6ab42092e9dd");
 

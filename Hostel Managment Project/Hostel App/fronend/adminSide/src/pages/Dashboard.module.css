@@ -1,4 +1,3 @@
-/* General Styles */
 .pageTitle {
     font-size: 1.5rem;
     font-weight: bold;
@@ -6,87 +5,60 @@
     color: black;
 }
 
-/* Student Form Edit Section */
 .StudentFormEdit {
     background-color: #ffffff;
-    /* White */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
-/* Tables */
 .table,
 .customTable {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* Table Headers */
 .table thead,
 .customTable thead {
     background-color: #E7B75F;
-    /* Primary color */
     color: #ffffff;
-    /* White text */
 }
 
-/* Table Cells */
 .table th,
 .customTable th,
 .table td,
 .customTable td {
     padding: 0.75rem;
     border: 1px solid #E7B75F;
-    /* Primary color */
     text-align: center;
 }
 
-/* Alternating Row Colors */
 .table tbody tr:nth-child(even),
 .customTable tbody tr:nth-child(even) {
     background-color: #f4f4f4;
-    /* Light gray */
 }
 
 .table tbody tr:nth-child(odd),
 .customTable tbody tr:nth-child(odd) {
     background-color: #ffffff;
-    /* White */
 }
 
-/* Hover Effect for Rows */
 .table tbody tr:hover,
 .customTable tbody tr:hover {
     background-color: #E7B75F;
-    /* Primary color */
     color: #ffffff;
-    /* White text */
 }
 
-/* Lunch Details Section */
 .tableContainer,
 .customTable {
     background-color: #ffffff;
-    /* White */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
-/* Rooms Details Section */
-.tableContainer {
-    background-color: #ffffff;
-    /* White */
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-/* Rules Section */
 .Rules {
     background-color: #ffffff;
     border-radius: 8px;
@@ -98,7 +70,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
-    /* Dark Teal */
 }
 
 .rules_all {
@@ -115,5 +86,4 @@
 
 .rules_all strong {
     color: #E7B75F;
-    /* Primary color */
 }

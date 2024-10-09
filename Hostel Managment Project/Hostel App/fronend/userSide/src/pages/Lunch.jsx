@@ -6,7 +6,6 @@ const Lunch = () => {
   const [lunchDetails, setLunchDetails] = useState([]);
 
   useEffect(() => {
-    // Fetch data from the server
     axios
       .get("http://localhost:3001/lunch-details")
       .then((response) => {

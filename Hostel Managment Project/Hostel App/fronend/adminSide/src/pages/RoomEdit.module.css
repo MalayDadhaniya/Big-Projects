@@ -1,11 +1,9 @@
-/* Table Container */
 .tableContainer {
     padding: 0px 15px 60px 15px;
     display: flex;
     justify-content: center;
 }
 
-/* Custom Table */
 .customTable {
     font-size: 17px;
     width: 80%;
@@ -14,7 +12,6 @@
     background-color: #fff;
 }
 
-/* Table Headers and Cells */
 .customTable th,
 .customTable td {
     font-size: 19px;
@@ -26,9 +23,7 @@
 
 .customTable thead {
     background-color: #E7B75F;
-    /* Primary color */
     color: #fff;
-    /* White text */
     font-weight: bold;
 }
 
@@ -36,35 +31,28 @@
     font-size: 1.1em;
 }
 
-/* Button Styling */
 .customTable td button {
     padding: 8px 20px;
     cursor: pointer;
     margin: 5px auto;
     border-radius: 5px;
     background-color: #E7B75F;
-    /* Primary color */
     border: none;
     color: #fff;
-    /* White text */
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    /* Removes underline */
 }
 
 .customTable td button:hover {
     background-color: #d9a15d;
-    /* Slightly darker shade for hover */
 }
 
-/* Anchor Styling */
 .customTable td a {
     display: inline-block;
     width: 100%;
     text-align: center;
     color: #E7B75F;
-    /* Primary color */
     text-decoration: none;
 }
 
@@ -72,7 +60,6 @@
     text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .customTable {
         width: 100%;
@@ -82,7 +69,6 @@
     .customTable td {
         padding: 10px;
         font-size: 16px;
-        /* Slightly smaller font size for mobile */
     }
 
     .customTable tr {
@@ -103,6 +89,5 @@
         left: 10px;
         font-weight: bold;
         color: #333;
-        /* Darker text color for readability */
     }
 }

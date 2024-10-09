@@ -4,18 +4,17 @@ import { useParams, useNavigate } from "react-router-dom";
 import styles from "./RoomEditForm.module.css";
 
 const RoomEditForm = () => {
-  const { room_no } = useParams(); // Get room number from URL params
+  const { room_no } = useParams();
   const [totalStudents, setTotalStudents] = useState("");
   const navigate = useNavigate();
 
-  // Fetch room details when the component mounts
   useEffect(() => {
     const fetchRoomDetails = async () => {
       try {
         const response = await axios.get(
           `http://localhost:3001/room-details/${room_no}`
         );
-        setTotalStudents(response.data.total_students); // Set the current total students
+        setTotalStudents(response.data.total_students);
       } catch (error) {
         console.error("Error fetching room data:", error);
       }
@@ -24,7 +23,6 @@ const RoomEditForm = () => {
     fetchRoomDetails();
   }, [room_no]);
 
-  // Handle form submission and update the total students in the database
   const handleEdit = async (e) => {
     e.preventDefault();
     try {
@@ -32,7 +30,7 @@ const RoomEditForm = () => {
         total_students: totalStudents,
       });
       alert("Room details updated successfully");
-      navigate("/room-edit"); // Redirect back to room list after successful edit
+      navigate("/room-edit");
     } catch (error) {
       console.error("Error updating room details:", error);
     }

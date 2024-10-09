@@ -16,7 +16,6 @@ const StudentFormEdit = () => {
     axios
       .delete(`http://localhost:3001/student-form-edit/${id}`)
       .then(() => {
-        // Remove deleted item from the local state
         setStudentInfo(studentInfo.filter((st) => st._id !== id));
       })
       .catch((err) => console.log(err));
